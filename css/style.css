@@ -4,6 +4,13 @@
     --primary-color: #434455;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
 
 
 body{
@@ -11,14 +18,25 @@ body{
     background-color: var(--primary-white-color);
     font-family: var(--primary-font);
     font-size: 16px;
+    font-style: normal;
+}
+
+.container{
+    width: 1158px;
+    display: block;
 }
 
 /*header*/
 
+.header{
+    width: 1440px;
+    height: 72px;
+    display: flex;
+}
+
 /*logo start*/
 .logo-web{
     font-family: "Raleway", sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;  
@@ -33,7 +51,6 @@ body{
 
 .logo-studio-nav{
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -45,7 +62,6 @@ body{
 
 .logo-studio{
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -66,7 +82,6 @@ body{
 }
 
 .nav-item{
-    font-style: normal;
     font-weight: 500;
     line-height: 1.3;   
     
@@ -102,7 +117,6 @@ body{
 
 .contact{
     letter-spacing: 0.02em;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     color: #434455;
@@ -121,7 +135,6 @@ body{
 }
 
 .hero-title{
-    font-style: normal;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;    
@@ -150,7 +163,6 @@ body{
  /*section feature */
 
  .feature-title{
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;    
@@ -159,7 +171,6 @@ body{
  }
 
  .feature-text{
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -169,7 +180,6 @@ body{
 
  /*section about */
  .section-about-title{
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -185,7 +195,6 @@ body{
 }
 
   .section-team-title{
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -196,7 +205,6 @@ body{
   }
 
   .team-title{
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -206,7 +214,6 @@ body{
   }
 
   .team-text{
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -224,7 +231,6 @@ body{
 .btn{
     font-family: "Roboto", sans-serif;
     background: #F4F4FD;
-    font-style: normal;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -243,7 +249,6 @@ body{
 /*section portfolio product cards*/
 
 .product-name{
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;        
@@ -253,7 +258,6 @@ body{
 }
 
 .product-text{
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -269,7 +273,6 @@ body{
  }
 
  .footer-text{
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;   
