@@ -208,10 +208,7 @@ img{
     display: flex;
  }
  
- .section-feature-title {
-    visibility: hidden;  
- }
-
+ 
  .feature-list{
     display: flex;
     gap: 24px;
