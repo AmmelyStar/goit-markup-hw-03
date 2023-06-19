@@ -1,7 +1,8 @@
 :root {
     --primary-font: 'Roboto', sans-serif;
-    --primary-white-color: #ffffff;
-    --primary-color: #434455;
+    --main-white-cl: #ffffff;
+    --main-dark-cl: #434455;
+    --accent-cl: #4D5AE5;
 }
 
 ul,
@@ -31,11 +32,10 @@ button{
 
 
 body {
-    color: var(--primary-color);
-    background-color: var(--primary-white-color);
+    color: var(--main-dark-cl);
+    background-color: var(--main-white-cl);
     font-family: var(--primary-font);
     font-size: 16px;
-    font-style: normal;
 }
 
 img {
@@ -90,7 +90,7 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--accent-cl);
     margin-right: 76px;
     display: inline-block;
 }
@@ -104,7 +104,7 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: var(--main-dark-cl);
 
 }
 
@@ -114,9 +114,8 @@ img {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2E2F42;
-    color: #f4f4fd;
+    text-transform: uppercase;    
+    color: var(--main-white-cl);
 }
 
 
@@ -172,28 +171,28 @@ img {
 }
 
 
-.contacts-email .link:hover,
-.contacts-email .link:focus {
+.mail .link:hover,
+.mail .link:focus {
     color: #404bbf;
 }
 
 
-.contact {
+.address-link {
     letter-spacing: 0.02em;
     font-weight: 400;
     line-height: 1.5;
-    color: #434455;
+    color:var(--main-dark-cl);
     text-decoration: none;
 }
 
-.contacts {
+.address-list {
     display: flex;
     gap: 40px;
 
 }
 
-.contacts-telefon .link:hover,
-.contacts-telefon .link:focus {
+.number .link:hover,
+.number .link:focus {
     color: #404bbf;
 }
 
@@ -211,7 +210,7 @@ img {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--main-white-cl);
     max-width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
@@ -219,13 +218,13 @@ img {
 
 .button {
     font-family: "Roboto", sans-serif;
-    font-style: normal;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background-color: #4D5AE5;
+    color:var(--main-white-cl);
+    background-color: var(--accent-cl);
     cursor: pointer;
     display: block;
     min-width: 169px;
@@ -348,7 +347,7 @@ img {
 }
 
 .team-card {
-    background-color: #FFFFFF;
+    background-color: var(--main-white-cl);
     width: calc((100% - 72px) / 4);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
@@ -381,7 +380,7 @@ img {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
+    color:var(--accent-cl);
     cursor: pointer;
     padding: 12px 24px;
     border: 1px solid #E7E9FC;
@@ -391,7 +390,7 @@ img {
 .btn:hover,
 .btn:focus {
     background-color: #404BBF;
-    color: #FFFFFF;
+    color:var(--main-white-cl);
     border: 1px solid transparent;
 }
 
@@ -444,7 +443,6 @@ img {
     display: inline-block;
     margin-bottom: 16px;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -452,7 +450,7 @@ img {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--accent-cl);
     
 
 }
